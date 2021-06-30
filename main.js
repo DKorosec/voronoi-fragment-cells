@@ -71,7 +71,7 @@ uniform int points_count;
 uniform vec2 points[MAX_POINTS];
 uniform vec3 points_color[MAX_POINTS];
 
-void main()	{
+void main() {
   float nearest_d = FLT_MAX;
   vec2 px = gl_FragCoord.xy;
   vec3 best_color = vec3(0.,0.,0.);
